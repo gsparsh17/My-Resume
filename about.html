@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT sECTION</title>
+</head>
+<body style="background-color:aquamarine;">
+    <p style="font-size: 1cm; color: blue; text-align: center;" >Tell Us About Yourself</p>
+    <hr style="color: black;">
+   <img src="images/images (2).jpg" style="float: right; margin: 2cm;" width="400" height="400">
+   <br><br>
+   <form action="beckhand.php">
+        <br>
+      <div style="color: rgb(221, 40, 40);"> 
+        <label for="name"> <b> Name :</b></label> <input type="text" name="name" id="name">
+      </div>
+      <br>
+      <div style="color: rgb(221, 40, 40);"> 
+         <b> Role :</b> <input type="text" name="role">
+      </div>
+      <br>
+      <div style="color: rgb(221, 40, 40);"> 
+         <b> Bonus :</b> <input type="number" name="bonus">
+      </div>
+      <br>
+      <div style="color: rgb(221, 40, 40);"> 
+         <b> Gender :  Male&nbsp; <input type="radio" name="gender"> Female&nbsp;<input type="radio" name="gender"></b>
+      </div>
+      <br>
+      <div style="color: rgb(221, 40, 40);"> 
+         <b> Are You Elegible?&nbsp;</b> <input type="checkbox" name="Elegible" checked>
+      </div>
+      <br>
+      <div style="color: rgb(221, 40, 40);"> 
+         <b> Tell About Yourself :&nbsp;&nbsp;</b> <br><br><textarea name="about" id="about" cols="50" rows="10">Write Here.....</textarea>
+      </div>
+      <br>
+      <div style="color: rgb(221, 40, 40);"> 
+         <b> Occupation :&nbsp;&nbsp;</b> <select name="occupation" id="occu">
+             <option value="Graduate"> Graduate</option>
+             <option value="Employee">Employee</option>
+             <option value="under">Under Graduate</option>
+         </select>
+      </div>
+      <br>
+      <input type="submit" name="submit">
+      <input type="reset" name="reset">
+    </form>
+</body>
+</html>
